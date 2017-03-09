@@ -1,0 +1,61 @@
+.countBox{
+    position: relative;
+    width: 170px;
+    margin: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.countBox *{
+    box-sizing: border-box;
+}
+.countBox:after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.decreaseBtn{
+    float: left;
+    width: 45px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.decreaseBtn:hover{
+    border: 1px solid #333333;
+}
+.countVal{
+    height: 60px;
+    float: left;
+    width: 80px;
+    text-align: center;
+    border: none;
+}
+.countVal input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+}
+.increaseBtn{
+    float: right;
+    width: 45px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.increaseBtn:hover{
+    border: 1px solid #333333;
+}
